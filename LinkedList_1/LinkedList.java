@@ -1,6 +1,7 @@
 package JavaDSAPlayground.LinkedList_1;
 
 
+
 public class LinkedList {
     //**NODE CLASS
     public static class Node{
