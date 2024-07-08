@@ -15,7 +15,7 @@ public class LinkedList {
     }
     public static Node head;
     public static Node tail;
-    public static int size;//Now we dont have to loop the ll to calculate the size.
+    public int size;//Now we dont have to loop the ll to calculate the size.
     // Now its a constant operation.
     //**METHODS
         // * add first
