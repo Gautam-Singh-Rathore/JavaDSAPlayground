@@ -1,4 +1,4 @@
-package JavaDSAPlayground.LinkedList_1;
+package LinkedList_1;
 
 
 public class Problem3 {

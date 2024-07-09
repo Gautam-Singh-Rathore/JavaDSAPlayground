@@ -1,5 +1,5 @@
-package JavaDSAPlayground.LinkedList_1;
-import JavaDSAPlayground.LinkedList_1.LinkedList.Node;
+package LinkedList_1;
+import LinkedList_1.LinkedList.Node;
 
 public class Problem5 {
     public static boolean isPalindrome(Node head) {
