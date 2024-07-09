@@ -1,4 +1,4 @@
-package JavaDSAPlayground.Searching;
+package Searching;
 
 public class LinearSearch2 {
     public static int searchDish(String menu[] , String dish){

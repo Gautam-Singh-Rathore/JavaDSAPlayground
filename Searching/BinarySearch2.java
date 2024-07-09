@@ -1,4 +1,4 @@
-package JavaDSAPlayground.Searching;
+package Searching;
 
 public class BinarySearch2 {
     //BINARY SEARCH FUNCTION (**RECURSSIVE APPROACH**)

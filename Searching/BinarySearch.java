@@ -1,4 +1,4 @@
-package JavaDSAPlayground.Searching;
+package Searching;
 
 public class BinarySearch {
     //BINARY SEARCH FUNCTION (**ITERATIVE APPROACH**)

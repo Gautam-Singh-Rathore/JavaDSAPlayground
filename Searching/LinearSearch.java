@@ -1,4 +1,4 @@
-package JavaDSAPlayground.Searching;
+package Searching;
 
 public class LinearSearch {
     //Linear search function
