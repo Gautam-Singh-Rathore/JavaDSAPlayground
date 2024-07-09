@@ -1,4 +1,4 @@
-package JavaDSAPlayground.Recursion;
+package Recursion;
 
 
 public class Problem6 {
