@@ -1,4 +1,4 @@
-package JavaDSAPlayground.Stack;
+package Stack;
 
 public class LinkedListImplementation {
     static class Node{
