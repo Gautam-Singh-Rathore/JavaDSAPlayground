@@ -1,4 +1,4 @@
-package JavaDSAPlayground.Array;
+package Array;
 
 public class Problem5 {
     public static int trappedWater(int[] arr){

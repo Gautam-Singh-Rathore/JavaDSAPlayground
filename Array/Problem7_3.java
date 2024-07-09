@@ -1,4 +1,4 @@
-package JavaDSAPlayground.Array;
+package Array;
 
 
 

@@ -1,4 +1,4 @@
-package JavaDSAPlayground.Array;
+package Array;
 
 public class Problem4 {
     public static int stocks(int [] prices){

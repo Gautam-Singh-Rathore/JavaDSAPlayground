@@ -1,4 +1,4 @@
-package JavaDSAPlayground.Array;
+package Array;
 
 public class Problem6 {
     public static void printSubArray(int[] arr){
