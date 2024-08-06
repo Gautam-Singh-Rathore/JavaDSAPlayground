@@ -8,6 +8,7 @@ public class ArrayImplementation {
         q.add(3);
         q.add(4);
         q.add(5);
+        // 1 2 3 4 5
         while(!q.isEmpty()){
             System.out.println(q.peek());
             q.remove();
@@ -16,9 +17,9 @@ public class ArrayImplementation {
     }
 
     static class Queue {
-        static int arr[];
-        static int size;
-        static int rear ;
+         int arr[];
+         int size;
+         int rear ;
         Queue(int n) {
              arr = new int[n];
              size = n;
@@ -28,7 +29,7 @@ public class ArrayImplementation {
         public boolean isEmpty(){
             return rear==-1;
         }
-        // add function
+        // add function - O(1)
         public void add(int x){
             if(rear == size-1){
                 System.out.println("Queue is full");
@@ -38,7 +39,7 @@ public class ArrayImplementation {
             arr[rear] = x;
             
         }
-        // remov function
+        // remov function - O(n)
         public int remove(){
             if(isEmpty()){
                 return Integer.MIN_VALUE;
