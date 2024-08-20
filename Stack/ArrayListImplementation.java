@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class ArrayListImplementation {
     static class Stack{
         static ArrayList<Integer> list = new ArrayList<>();
+        
         public boolean isEmpty(){
             return list.size()==0;
         }

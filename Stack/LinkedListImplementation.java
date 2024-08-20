@@ -10,6 +10,7 @@ public class LinkedListImplementation {
     }
     static class Stack{
         static Node head;
+        
         // isEmpty
         public boolean isEmpty(){
             return head==null; 

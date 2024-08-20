@@ -25,7 +25,7 @@ public class Problem1 {
             insertAtBottom(st , x);
             st.push(val);
         }
-        
+    
         return st;
     }
 }

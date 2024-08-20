@@ -24,7 +24,7 @@ public class Problem3 {
             s.push(val);
         }else{
             reverse(s);
-            pushAtBottom(s,val);
+            pushAtBottom(s,val); 
         }
         
     }

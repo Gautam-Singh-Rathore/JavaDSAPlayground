@@ -21,7 +21,7 @@ public class Problem2 {
         }
         String ans = "";
         while(!stack.isEmpty()){
-            char val = stack.pop();
+            char val = stack.pop(); 
             ans=ans+val;
         }
         
