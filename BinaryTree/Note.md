@@ -1,0 +1,1 @@
+## Other questions are solved on Leetcode and other platforms
