@@ -3,7 +3,7 @@ import java.util.Comparator;
 import java.util.PriorityQueue;
 
 
-public class Classroom {
+public class PriorityQueueClassroom {
     static class Student implements Comparable<Student>{
         String name;
         int rank;
@@ -30,6 +30,17 @@ public class Classroom {
             System.out.println(pq.remove());
         }*/
         
+        PriorityQueue<Student> pq = new PriorityQueue<>();
+        pq.add(new Student("gautam", 10));
+        pq.add(new Student("dev", 100));
+        pq.add(new Student("gunjan", 1));
+        pq.add(new Student("anil", 50));
+        pq.add(new Student("ummed", 40));
+
+        while(!pq.isEmpty()){
+            Student temp = pq.remove();
+            System.out.println(temp.name + "->" + temp.rank);
+        }
     }
     
 }
